@@ -8,7 +8,6 @@ public class TwoDArray {
             {70, 86, 92}
         };
 
-        // Display the array
         System.out.println("Board:");
 
         for (int row = 0; row < board.length; row++) {
@@ -27,19 +26,16 @@ public class TwoDArray {
         // part b
         int[][] matrix = new int[23][15];
 
-        // Assign 10 to every element
         for (int row = 0; row < matrix.length; row++) {
             for (int col = 0; col < matrix[row].length; col++) {
                 matrix[row][col] = 10;
             }
         }
 
-        // Change all elements in the first row to 5
         for (int col = 0; col < matrix[0].length; col++) {
             matrix[0][col] = 5;
         }
 
-        // Display the matrix
         System.out.println("\nMatrix:");
 
         for (int row = 0; row < matrix.length; row++) {
