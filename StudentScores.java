@@ -1,7 +1,6 @@
 public class StudentScores {
     public static void main(String[] args) {
 
-        // part a
         int[][] scores = {
             {85, 90, 78},
             {70, 88, 92},
@@ -9,7 +8,6 @@ public class StudentScores {
             {65, 75, 80}
         };
 
-        // Display all student scores
         System.out.println("Student Scores:");
 
         for (int row = 0; row < scores.length; row++) {
@@ -19,7 +17,6 @@ public class StudentScores {
             System.out.println();
         }
 
-        // Calculate total and average for each student
         for (int row = 0; row < scores.length; row++) {
 
             int total = 0;
@@ -34,7 +31,6 @@ public class StudentScores {
             System.out.println("Student " + (row + 1) + " average: " + average);
         }
 
-        // Find the highest score in the entire array
         int highest = scores[0][0];
 
         for (int row = 0; row < scores.length; row++) {
